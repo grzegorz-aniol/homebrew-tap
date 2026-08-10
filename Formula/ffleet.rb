@@ -8,22 +8,22 @@ class Ffleet < Formula
   on_macos do
     on_arm do
       url "https://github.com/grzegorz-aniol/ffleet-dist/releases/download/1.0.1/ffleet_1.0.1_darwin_arm64.tar.gz"
-      sha256 "f5e76af7308c581440d7b241b1830f00a4daae8e112c063da7749e6fc8752d2d"
+      sha256 "4c476d0773b95bcba0989dbf609e6ce0e601657b7bf7a0ef5d72c838de9c43ee"
     end
     on_intel do
       url "https://github.com/grzegorz-aniol/ffleet-dist/releases/download/1.0.1/ffleet_1.0.1_darwin_amd64.tar.gz"
-      sha256 "87dc3d450f3548218d589b1db733ca3984540b67e24bf572735091ffb0118106"
+      sha256 "788518d6f5068ea0c74c9620bf62d53d300e5cc5bdc5c8b1f1b9a2b6c4065df0"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/grzegorz-aniol/ffleet-dist/releases/download/1.0.1/ffleet_1.0.1_linux_arm64.tar.gz"
-      sha256 "ac532553d8dcf89706849cdd8de73f5f3448c454711b993f311dcb07a63e2bb7"
+      sha256 "d8d60c2e5494b85f6af220fdeedb90443ec1a6beb665ed84604f6753bae3bd2d"
     end
     on_intel do
       url "https://github.com/grzegorz-aniol/ffleet-dist/releases/download/1.0.1/ffleet_1.0.1_linux_amd64.tar.gz"
-      sha256 "2624863c3c8109c9db1bed642a3b61aea9371361e1cfc103fa2912a0e2136ef5"
+      sha256 "437411c5719c97795b2e97a9d10a748f7580048f179e7a023a64bed894c2abcf"
     end
   end
 
