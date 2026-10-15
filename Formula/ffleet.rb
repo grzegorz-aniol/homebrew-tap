@@ -2,28 +2,28 @@
 class Ffleet < Formula
   desc "Spin up isolated, containerized coding-agent environments"
   homepage "https://github.com/grzegorz-aniol/ffleet-dist"
-  version "1.0.13"
+  version "1.0.14"
   license :cannot_represent # proprietary freeware; see LICENSE.txt in the tarball
 
   on_macos do
     on_arm do
-      url "https://github.com/grzegorz-aniol/ffleet-dist/releases/download/1.0.13/ffleet_1.0.13_darwin_arm64.tar.gz"
-      sha256 "3d62fc8ba658c84253ba6530851fe1bd7827d457def0cea00ce1fa843fd78fcd"
+      url "https://github.com/grzegorz-aniol/ffleet-dist/releases/download/1.0.14/ffleet_1.0.14_darwin_arm64.tar.gz"
+      sha256 "579441d74982d9e4f71c3f06b9ce573a65c1f3bf39f74044f630423894fba38c"
     end
     on_intel do
-      url "https://github.com/grzegorz-aniol/ffleet-dist/releases/download/1.0.13/ffleet_1.0.13_darwin_amd64.tar.gz"
-      sha256 "744b8c6dc05257ffdf1a99fe405c3c7e79afa556fd636ae7b680ac5d6144b7f8"
+      url "https://github.com/grzegorz-aniol/ffleet-dist/releases/download/1.0.14/ffleet_1.0.14_darwin_amd64.tar.gz"
+      sha256 "b6bc46dfeb0bb0e4749d8e95f8b648455608780b844ce120152591989711801a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/grzegorz-aniol/ffleet-dist/releases/download/1.0.13/ffleet_1.0.13_linux_arm64.tar.gz"
-      sha256 "90b6999569ee6fe7fd7a42cc4556184b1fceda04e2229f36012a1552cd4ce545"
+      url "https://github.com/grzegorz-aniol/ffleet-dist/releases/download/1.0.14/ffleet_1.0.14_linux_arm64.tar.gz"
+      sha256 "223d721aae8863eae5f1424bb46fe0a113be3608f13fc2276aa8ed4ae889bf71"
     end
     on_intel do
-      url "https://github.com/grzegorz-aniol/ffleet-dist/releases/download/1.0.13/ffleet_1.0.13_linux_amd64.tar.gz"
-      sha256 "be3b452c9da2adf8ed46cfdc0ae5ec38b6c4e12fcc238e3e90bafbe6b9f44568"
+      url "https://github.com/grzegorz-aniol/ffleet-dist/releases/download/1.0.14/ffleet_1.0.14_linux_amd64.tar.gz"
+      sha256 "3490a8fc1e1d38810ae279fb615bede739c5236c1ec2f28e269e419aa67ca848"
     end
   end
 
